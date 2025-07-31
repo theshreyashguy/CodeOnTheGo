@@ -1,0 +1,56 @@
+/* Define custom rules FIRST */
+
+@theme {
+  /* Colors */
+  --color-dark-900: #0f0f0f;
+  --color-dark-800: #181818;
+  --color-dark-700: #252525;
+
+  --color-primary-500: #3b82f6;
+  --color-primary-400: #60a5fa;
+
+  --color-accent-pink: #ec4899;
+  --color-accent-purple: #a855f7;
+  --color-accent-cyan: #06b6d4;
+
+  /* Animations */
+  --animation-float: float 6s ease-in-out infinite;
+  --animation-float-reverse: float-reverse 5s ease-in-out infinite;
+}
+
+/* Keyframes are standard CSS and should be defined globally */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes float-reverse {
+  0%, 100% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+/* Import Tailwind LAST */
+@import "tailwindcss";
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
