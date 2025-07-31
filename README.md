@@ -103,4 +103,4 @@ MAIL_PASSWORD: Your email password
 
 ## Contact
 
-Ram Kumar Verma - ramkumaravs01@gmail.com
+Ram Kumar Verma - jadhaoshreyash31@gmail.com
