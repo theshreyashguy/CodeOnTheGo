@@ -71,7 +71,7 @@ Make sure you have the following installed on your machine:
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/RaM21234/golang_code_compiler_engine.git
+git clone git@github.com:theshreyashguy/CodeOnTheGo.git
 cd download_folder
 ```
 
